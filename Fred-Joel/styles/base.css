@@ -1,3 +1,11 @@
 img {
   max-width: 100%;
 }
+
+.headerTemp, .site-header {
+  background-color: #d1c43c;
+}
+
+.headerTemp h1 {
+  margin-top: 0;
+}

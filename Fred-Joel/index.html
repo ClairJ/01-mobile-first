@@ -22,6 +22,7 @@
 <body>
   <!-- REVIEW: Note that the header has multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
   <header class="site-header clearfix">
+
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- clearfix is able to take the overflow of containers and scale them accordingly -->
 
@@ -32,6 +33,7 @@
       </h1>
       <h2>The shocking power of static pages</h2>
     </section>
+
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
       <span class="icon-menu"></span>
@@ -46,7 +48,7 @@
   <main>
     <section id="articles" class="tab-content">
       <article class="clearfix" data-category="bacon">
-          <header>
+          <header class="headerTemp">
             <h1>Bacon Ipsum</h1>
             <!-- REVIEW: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
             <div class="byline">
