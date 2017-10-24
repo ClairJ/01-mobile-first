@@ -7,34 +7,37 @@ nav span.icon-menu {
   width: 10em;
 }
 
-.main-nav {
-  padding: 0.1em;
-}
+@media only screen and (min-width: 640px) {
 
- .main-nav ul{
-   display: none;
-   padding: 0;
-   list-style: none;
-   clear: both;
-}
+  .main-nav {
+    padding: 0.1em;
+  }
 
-.main-nav:hover ul{
-  display: block;
-}
+  .main-nav ul{
+     display: none;
+     padding: 0;
+     list-style: none;
+     clear: both;
+  }
 
-.main-nav li {
-  margin-right: .4em;
-  font-size: 1.5em;
-  padding: .5em .2em;
-  border-bottom: 1px solid #ccc;
-}
+  .main-nav:hover ul{
+    display: block;
+  }
 
-#filters {
-  padding: 0;
-  letter-spacing: none;
-}
+  .main-nav li {
+    margin-right: .4em;
+    font-size: 1.5em;
+    padding: .5em .2em;
+    border-bottom: 1px solid #ccc;
+  }
 
-.byline a {
-  font-weight: bold;
-  text-decoration: none;
+  #filters {
+    padding: 0;
+    letter-spacing: none;
+  }
+
+  .byline a {
+    font-weight: bold;
+    text-decoration: none;
+  }
 }

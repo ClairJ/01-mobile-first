@@ -27,8 +27,8 @@
   margin: .2em 5%;
 }
 
-@media screen and (min-width: 650px){
-  heading-group-h1 {
+@media only screen and (min-width: 640px){
+  .heading-group-h1 {
   padding: 1em 1em 1em 2em;
   float: none;
   }
@@ -42,19 +42,3 @@
   width: 20em;
   display: inline;
 }
-
-  /*.hamburger{
-    background:none;
-    padding:5px 15px 0px 15px;
-    position:absolute;
-    top:0;
-    right:0;
-    line-height:45px;
-    color:#999;
-    border:0;
-    font-size:1.4em;
-    font-weight:bold;
-    cursor:pointer;
-    outline:none;
-    z-index:10000000000000;
-  }*/
